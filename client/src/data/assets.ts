@@ -9,6 +9,9 @@ import celo from "@/assets/asset-icons/celo.png";
 import blast from "@/assets/asset-icons/blast.png";
 import zora from "@/assets/asset-icons/zora.png";
 import zksync from "@/assets/asset-icons/zksync.png";
+import usdc from "@/assets/assest-icons/usdc.png";
+import xlm from "@/assets/assest-icons/xlm.png";
+
 
 export type Asset = {
   name: string;
@@ -17,6 +20,17 @@ export type Asset = {
 };
 
 export const assets: Asset[] = [
+
+  {
+    name: "Xlm",
+    imgUrl: ethereum,
+    abbr: "XLM",
+  },
+  {
+    name: "usdc coin",
+    imgUrl: ethereum,
+    abbr: "USDC",
+  },
   {
     name: "Ethereum",
     imgUrl: ethereum,
